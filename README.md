@@ -1,5 +1,5 @@
-"# DeepNeuralNetwork-EIP" 
-Team members:
+ 
+#Team members:
 
 Shilpa M - Monday batch (online)
 
@@ -8,7 +8,7 @@ Sushmitha M Katti - Friday batch (online)
 
 
 
-**Score** = [0.03926073323299575, 0.9923]
+**Score** = [0.03423821484413848, 0.9904]
 
 **Convolution** - It is a process of tranforming a set of pixels of an image to a single pixel by performing dot product of 
 the convolution filter and image pixels.
