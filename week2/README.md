@@ -6,7 +6,10 @@ Shilpa M - Monday batch (online)
 Sushmitha M Katti - Friday batch (online)
 <br/><br/>
 
-
+**Parameters**<br/><br/>
+Total params: 13,112<br/>
+Trainable params: 12,912<br/>
+Non-trainable params: 200<br/><br/>
 
 **Logs Of 20 Epochs**<br/><br/>
 Train on 60000 samples, validate on 10000 samples
@@ -94,9 +97,9 @@ Epoch 00020: LearningRateScheduler setting learning rate to 0.000424869.
 **Score**
 [0.017742081358947327, 0.9944]
 
-**Procedure**
-I ran all the eight codes
-Took 8th code, 8th code was perfect. It was giving >99.4% test accuracy. Only problem was number of parameters was >15k
-So reduced number of kernels in first 2 layers to 10, 16 instead of 16,32.
-Got the conditions satisfied.(99.4% accuracy, <15k Parameters, within 20 Ephocs)
+**Procedure**<br/><br/>
+1. Ran all the eight codes
+2. Took 8th code because 8th code was perfect. It was giving >99.4% test accuracy. Only problem was number of parameters was >15k
+3. So reduced number of kernels in first 2 layers to 10, 16 instead of 16,32.
+4. Got the conditions satisfied.(99.4% accuracy, <15k Parameters, within 20 Ephocs)
 
