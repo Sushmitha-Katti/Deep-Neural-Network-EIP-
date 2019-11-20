@@ -8,7 +8,33 @@ Sushmitha M Katti - Friday batch (online)
 
 
 
-**Logs Of 20 Epochs**
+**Logs Of 20 Epochs**<br/><br/>
+Train on 60000 samples, validate on 10000 samples
+Epoch 1/20
+
+Epoch 00001: LearningRateScheduler setting learning rate to 0.003.
+60000/60000 [==============================] - 13s 223us/step - loss: 0.5403 - acc: 0.8459 - val_loss: 0.1010 - val_acc: 0.9833
+Epoch 2/20
+
+Epoch 00002: LearningRateScheduler setting learning rate to 0.0022744503.
+60000/60000 [==============================] - 10s 173us/step - loss: 0.2519 - acc: 0.9255 - val_loss: 0.0541 - val_acc: 0.9896
+Epoch 3/20
+
+Epoch 00003: LearningRateScheduler setting learning rate to 0.0018315018.
+60000/60000 [==============================] - 11s 177us/step - loss: 0.1979 - acc: 0.9406 - val_loss: 0.0542 - val_acc: 0.9876
+Epoch 4/20
+
+Epoch 00004: LearningRateScheduler setting learning rate to 0.0015329586.
+60000/60000 [==============================] - 11s 177us/step - loss: 0.1710 - acc: 0.9449 - val_loss: 0.0362 - val_acc: 0.9910
+Epoch 5/20
+
+Epoch 00005: LearningRateScheduler setting learning rate to 0.0013181019.
+60000/60000 [==============================] - 11s 177us/step - loss: 0.1497 - acc: 0.9506 - val_loss: 0.0300 - val_acc: 0.9929
+Epoch 6/20
+
+Epoch 00006: LearningRateScheduler setting learning rate to 0.0011560694.
+60000/60000 [==============================] - 11s 176us/step - loss: 0.1375 - acc: 0.9520 - val_loss: 0.0268 - val_acc: 0.9922
+Epoch 7/20
 Epoch 00007: LearningRateScheduler setting learning rate to 0.0010295127.
 60000/60000 [==============================] - 11s 176us/step - loss: 0.1306 - acc: 0.9522 - val_loss: 0.0292 - val_acc: 0.9922
 Epoch 8/20
@@ -67,4 +93,10 @@ Epoch 00020: LearningRateScheduler setting learning rate to 0.000424869.
 
 **Score**
 [0.017742081358947327, 0.9944]
+
+**Procedure**
+I ran all the eight codes
+Took 8th code, 8th code was perfect. It was giving >99.4% test accuracy. Only problem was number of parameters was >15k
+So reduced number of kernels in first 2 layers to 10, 16 instead of 16,32.
+Got the conditions satisfied.(99.4% accuracy, <15k Parameters, within 20 Ephocs)
 
