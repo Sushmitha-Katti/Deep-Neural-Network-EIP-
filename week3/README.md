@@ -9,9 +9,9 @@ Sushmitha M Katti - Friday batch (online)
 **Base Model Accuracy** - 82.60
 <br/>
 
-**No Of Parameters used** - 85,701
-**My Model Accuracy** - 81.56 (largest value)(48th Ephoch)
-**Highest Accuracy Of My Model** -  
+**No Of Parameters used** - 85,701<br/>
+**My Model Accuracy** - 81.56 (largest value)(48th Ephoch)<br/>
+
 **Model**
 
 model = Sequential()
